@@ -36,15 +36,15 @@ const works = {
       images: [p1,p2,p3,p4,p5],
       githubUrl: 'https://www.behance.net/gallery/203950489/PASSIFY',
     },
-    /*{
+    {
       id: 2,
-      title: 'Mobile App 2',
-      description: 'Description of Mobile App 2',
-      detailedDescription: 'Detailed description of Mobile App 2.',
+      title: 'WanderWise',
+      description: 'WanderWise is a comprehensive travel guide app that offers curated destination insights, accommodation and culinary recommendations, and favorite collections for seamless travel planning.',
+      detailedDescription: 'WanderWise is a meticulously designed travel guide app that enhances your travel experiences by offering a comprehensive and user-friendly interface. The app allows users to explore curated travel destinations with captivating visuals and provides in-depth information for each location. WanderWise also includes detailed insights into accommodation options, helping users find the best places to stay, and highlights local culinary delights by showcasing popular eateries. Additionally, users can save and revisit their favorite spots through the app\'s Favorite Collections feature. WanderWise serves as your personal travel companion, offering all necessary details and contact information without the hassle of bookings or payments, making travel planning seamless and enjoyable.',
       thumbnail: hap,
       images: [hap, sam],
       githubUrl: 'https://github.com/sreelakshmi-01',
-    },*/
+    },
   ],
   website: [
     {
