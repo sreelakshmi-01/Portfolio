@@ -23,7 +23,10 @@ import p2 from '../images/s2.jpg';
 import p3 from '../images/s9.jpg';
 import p4 from '../images/s10.jpg';
 import p5 from '../images/s16.jpg';
-
+import w1 from '../images/WanderWise-home.png';
+import w2 from '../images/Accomodation.png';
+import w3 from '../images/Destination.png';
+import w4 from '../images/Explore.png';
 
 const works = {
   mobileApp: [
@@ -41,9 +44,9 @@ const works = {
       title: 'WanderWise',
       description: 'WanderWise is a comprehensive travel guide app that offers curated destination insights, accommodation and culinary recommendations, and favorite collections for seamless travel planning.',
       detailedDescription: 'WanderWise is a meticulously designed travel guide app that enhances your travel experiences by offering a comprehensive and user-friendly interface. The app allows users to explore curated travel destinations with captivating visuals and provides in-depth information for each location. WanderWise also includes detailed insights into accommodation options, helping users find the best places to stay, and highlights local culinary delights by showcasing popular eateries. Additionally, users can save and revisit their favorite spots through the app\'s Favorite Collections feature. WanderWise serves as your personal travel companion, offering all necessary details and contact information without the hassle of bookings or payments, making travel planning seamless and enjoyable.',
-      thumbnail: hap,
-      images: [hap, sam],
-      githubUrl: 'https://github.com/sreelakshmi-01',
+      thumbnail: w1,
+      images: [w1, w2, w3, w4],
+      githubUrl: 'https://www.behance.net/gallery/204173503/WanderWise-Your-Ultimate-Travel-Companion',
     },
   ],
   website: [
