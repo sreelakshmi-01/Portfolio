@@ -28,9 +28,9 @@ import w2 from '../images/Accomodation.png';
 import w3 from '../images/Destination.png';
 import w4 from '../images/Explore.png';
 import gs1 from '../images/GS1.png';
-import gs2 from '../images.gs2.png';
-import gs3 from '../images.gs3.png';
-import gs4 from '../images.gs4.png';
+import gs2 from '../images/gs2.png';
+import gs3 from '../images/gs3.png';
+import gs4 from '../images/gs4.png';
 
 const works = {
   mobileApp: [
