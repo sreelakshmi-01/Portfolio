@@ -16,6 +16,7 @@ import htmlLogo from '../images/html.png';
 import cssLogo from '../images/css.png';
 import jsLogo from '../images/js.png';
 import photoshopLogo from '../images/ps.png';
+import powerlogo from '../images/Microsoft-Power-BI-Symbol.png';
 
 const SkillsContainer = styled.section`
   padding: 4rem;
@@ -143,6 +144,7 @@ const Skills = () => {
         <ToolLogo src={cssLogo} alt="CSS" />
         <ToolLogo src={jsLogo} alt="JavaScript" />
         <ToolLogo src={photoshopLogo} alt="Photoshop" />
+        <ToolLogo src={powerlogo} alt="PowerBI" />
         {/* <img src="https://skillicons.dev/icons?i=figma,flutter,python,c,html,css,javascript,photoshop" /> */}
       </ToolLogos>
     </SkillsContainer>
