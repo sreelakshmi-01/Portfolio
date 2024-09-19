@@ -27,6 +27,10 @@ import w1 from '../images/WanderWise-home.png';
 import w2 from '../images/Accomodation.png';
 import w3 from '../images/Destination.png';
 import w4 from '../images/Explore.png';
+import gs1 from '../images/GS1.png';
+import gs2 from '../images.gs2.png';
+import gs3 from '../images.gs3.png';
+import gs4 from '../images.gs4.png';
 
 const works = {
   mobileApp: [
@@ -86,6 +90,20 @@ The backend, powered by Node.js and Socket.io, manages room creation, user conne
     { id: 13, title: 'Independence Day', thumbnail: inde, images: [inde] },
     { id: 14, title: 'Women\'s Day', thumbnail: hap, images: [hap] },
     { id: 15, title: 'Samsung Ad', thumbnail: sam, images: [sam] },
+  ],
+  dashboard: [
+    {
+      id: 16,
+      title: 'Global Superstore 2016',
+      description: `
+This project was built using the Global Superstore dataset and serves as a detailed and interactive view of key business performance metrics in retail. Leveraging Power BI, I was able to create a dynamic and visually engaging dashboard.`,
+
+      detailedDescription: 'Detailed description of Dashboard 1.',
+      thumbnail: gs1,
+      images: [gs1, gs2, gs3, gs4,],
+      githubUrl: '',
+    },
+    
   ],
   /*
   other: [
@@ -289,6 +307,7 @@ const Portfolio = () => {
         <TabButton isActive={activeTab === 'mobileApp'} onClick={() => handleTabClick('mobileApp')} >Mobile App</TabButton>
         <TabButton isActive={activeTab === 'website'} onClick={() => handleTabClick('website')}>Website</TabButton>
         <TabButton isActive={activeTab === 'poster'} onClick={() => handleTabClick('poster')}>Poster</TabButton>
+        <TabButton isActive={activeTab === 'dashboard'} onClick={() => handleTabClick('dashboard')}>Dashboard</TabButton>
         
       </Tabs>
       <WorksGrid>
