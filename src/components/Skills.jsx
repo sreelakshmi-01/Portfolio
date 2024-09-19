@@ -5,6 +5,7 @@ import uiDesignIcon from '../images/ui.png';
 import appDevelopmentIcon from '../images/app.png';
 import webDevelopmentIcon from '../images/web.png';
 import posterDesignIcon from '../images/pd.png';
+import powerBIIcon from '../images/dash.png';
 
 
 
@@ -127,6 +128,10 @@ const Skills = () => {
         <SkillBox color="#F2F2F2">
           <SkillImage src={webDevelopmentIcon} alt="Web Development" />
           <SkillTitle>Web Development</SkillTitle>
+        </SkillBox>
+        <SkillBox color="#F2F2F2">
+          <SkillImage src={powerBIIcon} alt="Power BI" />
+          <SkillTitle>Power BI Dashboard</SkillTitle>
         </SkillBox>
         <SkillBox color="#FAF3E3">
           <SkillImage src={posterDesignIcon} alt="Poster Design" />
