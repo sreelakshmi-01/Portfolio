@@ -31,6 +31,9 @@ import gs1 from '../images/GS1.png';
 import gs2 from '../images/gs2.png';
 import gs3 from '../images/gs3.png';
 import gs4 from '../images/gs4.png';
+import sp1 from '../images/Spotify-1.png';
+import sp2 from '../images/ss.png';
+import sp3 from '../images/exss.png';
 
 const works = {
   mobileApp: [
@@ -101,6 +104,18 @@ This project was built using the Global Superstore dataset and serves as a detai
       detailedDescription: 'Detailed description of Dashboard 1.',
       thumbnail: gs1,
       images: [gs1, gs2, gs3, gs4,],
+      githubUrl: '',
+    },
+
+    {
+      id: 17,
+      title: 'Spotify Malayalam 2000-2010',
+      description: `
+Designed an interactive Power BI dashboard to analyze Spotify Malayalam song data from 2000 to 2010. The dashboard features cards for total song and artist counts, a pie chart for mode percentages, a bar graph showcasing liveliness trends per year, and a line graph tracking song releases over the decade. Additionally, a table highlights the most popular songs, with images of popular artists integrated for a visual appeal. The entire dashboard is designed in Spotify's theme, providing an engaging and insightful analysis.`,
+
+      detailedDescription: 'Detailed description of Dashboard 2.',
+      thumbnail: sp1,
+      images: [sp1, sp2, sp3 ],
       githubUrl: '',
     },
     
