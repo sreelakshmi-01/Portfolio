@@ -1,6 +1,5 @@
 import React from 'react';
 import styled from 'styled-components';
-import profileImage from '../images/photo_2024-08-02_13-04-52.jpg';  
 
 const AboutMeContainer = styled.section`
   padding: 4rem;
@@ -16,64 +15,6 @@ const AboutMeContainer = styled.section`
   align-items: center;
   min-height: 50vh;
   flex-wrap: wrap;
-`;
-
-const ImageContainer = styled.div`
-  position: relative;
-  flex: 1;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 2rem;
-
-  @media (max-width: 768px) {
-    margin-bottom: 1rem;
-  }
-`;
-
-const RoundedRectangleImage = styled.img`
-  border-radius: 20px;
-  margin-top: 40px;
-  margin-left: 10rem;
-
-  @media (max-width: 768px) {
-    width: 80%;
-    height: auto;
-    margin-left: 0;
-    margin-top: 0;
-  }
-`;
-
-const BackgroundShapes = styled.div`
-  position: absolute;
-  bottom: -50px; 
-  left: -10px; 
-`;
-
-const RectangleBox = styled.div`
-  position: relative;
-  background-color: rgba(67, 21, 39, 1); /* Color 431527 with 100% opacity */
-  margin-left: 12rem;
-  margin-top: 15rem;
-  border-radius: 20px;
-
-  @media (max-width: 768px) {
-    display: none;
-  }
-`;
-
-const SquareBox = styled.div`
-  position: absolute;
-  width: 308px;
-  height: 360px;
-  margin-left: 8rem;
-  margin-top: 12rem;
-  border-radius: 20px;
-  background-color: rgba(99, 98, 98, 0.34); /* Color 636262 with 34% opacity */
-
-  @media (max-width: 768px) {
-    display: none;
-  }
 `;
 
 const TextContainer = styled.div`
@@ -134,13 +75,6 @@ const Button = styled.button`
 const AboutMe = () => {
   return (
     <AboutMeContainer id="about">
-      <BackgroundShapes>
-        <SquareBox data-aos="fade-up" data-aos-duration="800"/>
-        <RectangleBox data-aos="fade-up" data-aos-duration="800"/>
-      </BackgroundShapes>
-      <ImageContainer>
-        <RoundedRectangleImage src={profileImage} data-aos="fade-up" data-aos-duration="800" alt="Profile" />
-      </ImageContainer>
       <TextContainer>
         <Title data-aos="fade-up" data-aos-duration="800">About Me</Title>
         <Paragraph data-aos="fade-up" data-aos-duration="800">
