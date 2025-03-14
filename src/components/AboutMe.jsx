@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import profileImage from '../images/abtme.jpg';  
+import profileImage from '../images/photo_2024-08-02_13-04-52.jpg';  
 
 const AboutMeContainer = styled.section`
   padding: 4rem;
