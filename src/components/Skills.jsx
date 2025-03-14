@@ -148,7 +148,7 @@ const Skills = () => {
         <ToolLogo src={htmlLogo} alt="HTML" />
         <ToolLogo src={cssLogo} alt="CSS" />
         <ToolLogo src={jsLogo} alt="JavaScript" />
-        <ToolLogo src={bootsraplogo} alt="Bootstrap" />
+        <ToolLogo src={bootstraplogo} alt="Bootstrap" />
         <ToolLogo src={pythonLogo} alt="Python" />
         <ToolLogo src={djangologo} alt="Django" />
         <ToolLogo src={mysqllogo} alt="Mysql" />
