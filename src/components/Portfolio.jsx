@@ -1,14 +1,5 @@
 import React, { useState } from 'react';
 import styled from 'styled-components';
-import yummy from '../images/yummy.png';
-import ladychef from '../images/ladychef.png';
-import chocolate from '../images/Ad.png';
-import cat from '../images/cat day.png';
-import cookie from '../images/cookie day.png';
-import coding from '../images/CREATIVE CODING USING PYTHON (1).png';
-import inde from '../images/gradient.png';
-import hap from '../images/Happy.jpg';
-import sam from '../images/notice.png';
 import ui2 from '../images/ui2.png';
 import ui1 from '../images/ui1.png';
 import ui3 from '../images/ui3.png';
@@ -83,17 +74,7 @@ The backend, powered by Node.js and Socket.io, manages room creation, user conne
       githubUrl: 'https://www.behance.net/gallery/203996499/Uber-Clone-Website',
     },
   ],
-  poster: [
-    { id: 5, title: 'Burger', thumbnail: yummy, images: [yummy] },
-    { id: 6, title: 'LadyChef', thumbnail: ladychef, images: [ladychef] },
-    { id: 9, title: 'Chocolate', thumbnail: chocolate, images: [chocolate] },
-    { id: 10, title: 'Cat Day', thumbnail: cat, images: [cat] },
-    { id: 11, title: 'Cookie Day', thumbnail: cookie, images: [cookie] },
-    { id: 12, title: 'Coding Competition', thumbnail: coding, images: [coding] },
-    { id: 13, title: 'Independence Day', thumbnail: inde, images: [inde] },
-    { id: 14, title: 'Women\'s Day', thumbnail: hap, images: [hap] },
-    { id: 15, title: 'Samsung Ad', thumbnail: sam, images: [sam] },
-  ],
+
   dashboard: [
     {
       id: 16,
