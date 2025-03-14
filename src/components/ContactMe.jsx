@@ -122,7 +122,6 @@ const SubmitButton = styled.button`
 const SocialIcons = styled.div`
   display: flex;
   justify-content: center;
-  margin-bottom: 20px;
 `;
 
 const IconLink = styled.a`
