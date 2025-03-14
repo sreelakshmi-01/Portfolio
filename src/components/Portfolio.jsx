@@ -302,7 +302,6 @@ const Portfolio = () => {
       <Tabs data-aos="fade-up" data-aos-duration="800">
         <TabButton isActive={activeTab === 'mobileApp'} onClick={() => handleTabClick('mobileApp')} >Mobile App</TabButton>
         <TabButton isActive={activeTab === 'website'} onClick={() => handleTabClick('website')}>Website</TabButton>
-        <TabButton isActive={activeTab === 'poster'} onClick={() => handleTabClick('poster')}>Poster</TabButton>
         <TabButton isActive={activeTab === 'dashboard'} onClick={() => handleTabClick('dashboard')}>Dashboard</TabButton>
         
       </Tabs>
