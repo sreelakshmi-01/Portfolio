@@ -122,6 +122,7 @@ const SubmitButton = styled.button`
 const SocialIcons = styled.div`
   display: flex;
   justify-content: center;
+  margin-bottom: 20px;
 `;
 
 const IconLink = styled.a`
@@ -219,7 +220,7 @@ const ContactMe = () => {
           </form>
         </FormContainer>
       </ContactContent>
-      <SocialIcons data-aos="fade-up" data-aos-duration="800">
+      <SocialIcons>
         <IconLink href="https://www.linkedin.com/in/sreelakshmi01" target="_blank"><FaLinkedin /></IconLink>
         <IconLink href="https://wa.me/+918137866551" target="_blank"><FaWhatsapp /></IconLink>
         <IconLink href="https://www.instagram.com/sreelakshmi_s01/" target="_blank"><FaInstagram /></IconLink>
