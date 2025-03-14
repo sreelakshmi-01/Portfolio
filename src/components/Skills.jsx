@@ -2,21 +2,24 @@ import React from 'react';
 import styled from 'styled-components';
 
 import uiDesignIcon from '../images/ui.png';
-import appDevelopmentIcon from '../images/app.png';
 import webDevelopmentIcon from '../images/web.png';
-import posterDesignIcon from '../images/pd.png';
 import powerBIIcon from '../images/dash.png';
-
+import pydev from '../images/pythondev.png';
 
 
 import figmaLogo from '../images/figma.png';
 import flutterLogo from '../images/flutter.png';
+import vscodelogo from '../images/vs code.png';
+import pycharmlogo from '../images/pyxharm.png';
+import mongodblogo from '../images/mongodb.png';
+import mysqllogo from '../images/mysql.png';
+import djangologo from '../images/django.png';
+import bootstraplogo from '../images/bootstrap.png';
 import pythonLogo from '../images/py.png';
 import cLogo from '../images/c.png';
 import htmlLogo from '../images/html.png';
 import cssLogo from '../images/css.png';
 import jsLogo from '../images/js.png';
-import photoshopLogo from '../images/ps.png';
 import powerlogo from '../images/Microsoft-Power-BI-Symbol.png';
 
 const SkillsContainer = styled.section`
@@ -121,34 +124,39 @@ const Skills = () => {
           <SkillImage src={uiDesignIcon} alt="UI Design" />
           <SkillTitle>UI Design</SkillTitle>
         </SkillBox>
-        <SkillBox color="#F7F7F7">
-          <SkillImage src={appDevelopmentIcon} alt="App Development" />
-          <SkillTitle>App Development</SkillTitle>
-        </SkillBox>
+       
         <SkillBox color="#F2F2F2">
           <SkillImage src={webDevelopmentIcon} alt="Web Development" />
           <SkillTitle>Web Development</SkillTitle>
         </SkillBox>
+
+        <SkillBox color="#F2F2F2">
+          <SkillImage src={pydev} alt="Python developer" />
+          <SkillTitle>Python Developer</SkillTitle>
+        </SkillBox>
+        
         <SkillBox color="#F2F2F2">
           <SkillImage src={powerBIIcon} alt="Power BI" />
           <SkillTitle>Power BI Dashboard</SkillTitle>
         </SkillBox>
-        <SkillBox color="#FAF3E3">
-          <SkillImage src={posterDesignIcon} alt="Poster Design" />
-          <SkillTitle>Poster Design</SkillTitle>
-        </SkillBox>
+
       </SkillsGrid>
 
       <SubHeading data-aos="fade-up" data-aos-duration="800">Tools & Technology</SubHeading>
       <ToolLogos data-aos="fade-up" data-aos-duration="800">
         <ToolLogo src={figmaLogo} alt="Figma" />
-        <ToolLogo src={flutterLogo} alt="Flutter" />
-        <ToolLogo src={pythonLogo} alt="Python" />
-        <ToolLogo src={cLogo} alt="C" />
         <ToolLogo src={htmlLogo} alt="HTML" />
         <ToolLogo src={cssLogo} alt="CSS" />
         <ToolLogo src={jsLogo} alt="JavaScript" />
-        <ToolLogo src={photoshopLogo} alt="Photoshop" />
+        <ToolLogo src={bootsraplogo} alt="Bootstrap" />
+        <ToolLogo src={pythonLogo} alt="Python" />
+        <ToolLogo src={djangologo} alt="Django" />
+        <ToolLogo src={mysqllogo} alt="Mysql" />
+        <ToolLogo src={mongodblogo} alt="MongoDB" />
+        <ToolLogo src={pythonLogo} alt="Python" />
+        <ToolLogo src={pycharmlogo} alt="Pycharm" />
+        <ToolLogo src={vscodelogo} alt="VSCode" />
+        <ToolLogo src={flutterLogo} alt="Flutter" />
         <ToolLogo src={powerlogo} alt="PowerBI" />
         {/* <img src="https://skillicons.dev/icons?i=figma,flutter,python,c,html,css,javascript,photoshop" /> */}
       </ToolLogos>
