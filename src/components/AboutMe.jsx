@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import profileImage from '../images/photo_2024-08-02_13-04-52.jpg';
 
 const AboutMeContainer = styled.section`
   padding: 4rem;
@@ -11,21 +12,42 @@ const AboutMeContainer = styled.section`
     rgba(255, 255, 255, 0.5) 65%,
     rgba(67, 21, 39, 0.5) 100%);
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   min-height: 50vh;
   flex-wrap: wrap;
+  gap: 2rem;
+`;
+
+const ProfileImageContainer = styled.div`
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  img {
+    width: 100%;
+    max-width: 300px;  /* Adjust max width */
+    height: auto;
+    border-radius: 10px;  /* Optional for rounded edges */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+  }
+
+  @media (max-width: 768px) {
+    order: -1; /* Move image above text */
+    margin-bottom: 1rem;
+  }
 `;
 
 const TextContainer = styled.div`
   flex: 2;
-  margin-left: 14rem;
-  margin-right: 10rem;
+  margin-left: 5rem;
+  margin-right: 5rem;
   text-align: justify;
 
   @media (max-width: 1024px) {
-    margin-left: 5rem;
-    margin-right: 5rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
   }
 
   @media (max-width: 768px) {
@@ -38,7 +60,6 @@ const Title = styled.h2`
   font-size: 2.5rem;
   margin-bottom: 1rem;
   color: white;
-  margin-left:10rem;
 
   @media (max-width: 768px) {
     text-align: center;
@@ -75,6 +96,9 @@ const Button = styled.button`
 const AboutMe = () => {
   return (
     <AboutMeContainer id="about">
+      <ProfileImageContainer>
+        <img src={profileImage} alt="Profile" />
+      </ProfileImageContainer>
       <TextContainer>
         <Title data-aos="fade-up" data-aos-duration="800">About Me</Title>
         <Paragraph data-aos="fade-up" data-aos-duration="800">
