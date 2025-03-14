@@ -104,7 +104,7 @@ const Header = () => {
           I am a versatile technology professional specializing in app development, UI design, and web development. I create seamless user experiences across platforms, combining technical expertise with creative design. My passion for technology drives me to stay updated with industry trends and continually enhance my skills.
         </Paragraph>
         <Button onClick={() => window.location.href = '#about'} data-aos="fade-up" data-aos-duration="1400">About me</Button>
-        <Button href="/cv.pdf" target="_blank" rel="noopener noreferrer" data-aos="fade-up" data-aos-duration="1500">Download CV</Button>
+        <Button href="/Sreelakshmi S.pdf" target="_blank" rel="noopener noreferrer" data-aos="fade-up" data-aos-duration="1500">Download CV</Button>
       </LeftSide>
       <RightSide data-aos="fade-up" data-aos-duration="1000">
         <CircularImage src={profileImage} alt="Profile" />
