@@ -25,7 +25,7 @@ import gs4 from '../images/gs4.png';
 import sp1 from '../images/Spotify-1.png';
 import sp2 from '../images/ss.png';
 import sp3 from '../images/exss.png';
-import sc1 from '../images/Frame.jpg';
+import sc1 from '../images/Frame 1.jpg';
 
 const works = {
   mobileApp: [
