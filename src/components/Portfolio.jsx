@@ -25,12 +25,13 @@ import gs4 from '../images/gs4.png';
 import sp1 from '../images/Spotify-1.png';
 import sp2 from '../images/ss.png';
 import sp3 from '../images/exss.png';
+import sc1 from '../images/Frame.jpg';
 
 const works = {
   mobileApp: [
     {
       id: 1,
-      title: 'Passify',
+      title: 'Passify (UI Design)',
       description: 'Passify is a cutting-edge mobile app crafted by a dynamic team of four talented students. Harnessing the power of Flutter for seamless cross-platform development and Firebase for robust backend support, Passify revolutionizes bus pass management for college students. Our team\'s innovative approach ensures a user-friendly experience, allowing students to search buses, book passes online, and enjoy real-time seat availability. With Passify, we are redefining how technology enhances student commutes.',
       detailedDescription: 'Passify provides a detailed overview of bus schedules, real-time tracking, and notifications for upcoming renewals. The app integrates with multiple payment gateways, ensuring secure and quick transactions. It also offers features like pass sharing and feedback submission, fostering a community-driven approach to public transport improvement.',
       thumbnail: p2,
@@ -39,7 +40,7 @@ const works = {
     },
     {
       id: 2,
-      title: 'WanderWise',
+      title: 'WanderWise (UI Design)',
       description: 'WanderWise is a comprehensive travel guide app that offers curated destination insights, accommodation and culinary recommendations, and favorite collections for seamless travel planning.',
       detailedDescription: 'WanderWise is a meticulously designed travel guide app that enhances your travel experiences by offering a comprehensive and user-friendly interface. The app allows users to explore curated travel destinations with captivating visuals and provides in-depth information for each location. WanderWise also includes detailed insights into accommodation options, helping users find the best places to stay, and highlights local culinary delights by showcasing popular eateries. Additionally, users can save and revisit their favorite spots through the app\'s Favorite Collections feature. WanderWise serves as your personal travel companion, offering all necessary details and contact information without the hassle of bookings or payments, making travel planning seamless and enjoyable.',
       thumbnail: w1,
@@ -66,12 +67,21 @@ The backend, powered by Node.js and Socket.io, manages room creation, user conne
     },
     {
       id: 4,
-      title: 'Uber (Clone)',
+      title: 'Uber (Clone) (UI Design)',
       description: 'This project is a meticulously crafted clone of the Uber website, designed using Figma. The aim was to replicate the sleek and user-friendly interface of Uber, capturing its essential features and aesthetics.',
       detailedDescription: 'Tools Used: Figma: Utilized Figma for creating high-fidelity prototypes, allowing for collaborative design and real-time feedback.Plugins: Leveraged Figma plugins for icons, illustrations, and real-time data to enhance the design process.',
       thumbnail: uber1,
       images: [uber1, uber2, uber3, uber4],
       githubUrl: 'https://www.behance.net/gallery/203996499/Uber-Clone-Website',
+    },
+    {
+      id: 5,
+      title: 'School Fee Management System (Admin Panel)',
+      description: 'Developed a School Fee management Admin Panel with student management, fee categorization and fee assignment using Django and MySQL.Implemented CRUD operations for managing students, fee categories, and payments, ensuring smooth data handling.',
+      detailedDescription: 'Tools Used: Figma: Utilized Figma to create high-fidelity prototypes, allowing for collaborative design and real-time feedback.Plugins: Leveraged Figma plugins for icons, illustrations, and real-time data to enhance the design process.',
+      thumbnail: sc1,
+      images: [sc1],
+      githubUrl: 'https://github.com/sreelakshmi-01/SchoolFee_AdminPanel',
     },
   ],
 
