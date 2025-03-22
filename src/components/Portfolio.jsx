@@ -26,6 +26,7 @@ import sp1 from '../images/Spotify-1.png';
 import sp2 from '../images/ss.png';
 import sp3 from '../images/exss.png';
 import sc1 from '../images/Frame 1.jpg';
+import pp1 from '../images/Frame 7.jpg';
 
 const works = {
   mobileApp: [
@@ -83,6 +84,15 @@ The backend, powered by Node.js and Socket.io, manages room creation, user conne
       images: [sc1],
       githubUrl: 'https://github.com/sreelakshmi-01/SchoolFee_AdminPanel',
     },
+    {
+      id: 6,
+      title: 'PlotPoint: Books Website',
+      description: 'Developed PlotPoint, an online book-selling platform with user authentication, cart, wishlist, and admin book management (CRUD). Built a scalable backend using Django, ensuring efficient data handling with MySQL. Implemented secure user authentication and session management, improving platform security and usability. Designed a structured database schema to handle book details, categories, and order processing.'
+      thumbnail: pp1,
+      images: [pp1],
+      githubUrl: 'https://github.com/sreelakshmi-01/PlotPoint',
+    },
+    
   ],
 
   dashboard: [
