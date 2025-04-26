@@ -221,7 +221,6 @@ const ContactMe = () => {
       </ContactContent>
       <SocialIcons>
         <IconLink href="https://www.linkedin.com/in/sreelakshmi01" target="_blank"><FaLinkedin /></IconLink>
-        <IconLink href="mailto:sreelakshmis112001@gmail.com" target="_blank"><FaEnvelope /></IconLink>
         <IconLink href="https://www.instagram.com/sreelakshmi_s01/" target="_blank"><FaInstagram /></IconLink>
         <IconLink href="https://github.com/sreelakshmi-01" target="_blank"><FaGithub /></IconLink>
       </SocialIcons>
